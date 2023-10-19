@@ -1,1 +1,1 @@
-# LEARN academy Challenges
+# LEARN Academy Challenges
