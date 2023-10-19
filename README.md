@@ -1,1 +1,1 @@
-# la-js-ref
+# LearnAcademy Challenges
