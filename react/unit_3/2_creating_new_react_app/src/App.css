@@ -1,9 +1,19 @@
 body {
-  background-color: rgb(242, 247, 246);
+  background-color: #f5f7f8;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
+.h-1 {
   text-align: center;
-  color:crimson
+  color: #45474b;
+  font-family: 'Audiowide';
+}
+.h-2 {
+  color: #45474b;
+  font-family: 'Audiowide';
+}
+.paragraph {
+  color: #495e57;
+  font-family: 'Audiowide';
+  background-color: #f4ce14;
 }
