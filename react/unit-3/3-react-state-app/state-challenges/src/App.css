@@ -6,9 +6,6 @@ h1 {
     /* position: absolute;
     top: 40%;
     left: 40%; */
-
-    /* font-family: 'Audiowide', sans-serif; */
-    /* background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #ed4); */
     background: linear-gradient(to right, blue, red, green, yellow, orange, purple);
     /* webkit is used for rendering content in Safari and Chrome browsers */
     -webkit-text-fill-color: transparent;
