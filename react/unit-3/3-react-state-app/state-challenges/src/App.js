@@ -7,11 +7,19 @@ const App = () => {
   return(
     <>
       <h1>Color Box App</h1>
-      <main> 
-        <Box />
-        <Box />
-        <Box />
-      </main>
+      <div className='container'>
+        <main>
+          <div className='box-1'>
+            <Box /> 
+          </div>
+          <div className='box-2'>
+            <Box />
+          </div>
+          <div className='box-3'>
+            <Box />
+          </div> 
+        </main>
+      </div>
     </>
   )
 }
