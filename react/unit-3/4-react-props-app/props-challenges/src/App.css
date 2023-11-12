@@ -5,12 +5,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
-  color: white;
 }
 body {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: #EBE4D1;
+  font-family: 'Audiowide', sans-serif;
 }
 h1 {
   padding-top: 20px;
@@ -18,6 +18,14 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  background: linear-gradient(to right, #E55604, #26577C, #E55604);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+h3 {
+  background: linear-gradient(to right, #26577C, #E55604);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .main-container {
   max-width: 480px;
@@ -31,7 +39,7 @@ h1 {
 }
 .player-1, .player-2 {
   padding: 20px;
-  border: 3px solid #2c2c2c;
+  border: 3px solid #B4B4B3;
   display: grid;
   place-items: center;
   border-radius: 10px;
@@ -58,9 +66,31 @@ button {
   font-weight: 500;
   font-size: 1.1rem;
   cursor: pointer;
-  color: black;
+  color: #EBE4D1;
   transition: all .4s;
+  font-family: 'Audiowide', sans-serif;
+  background: linear-gradient(to right, #26577C, #E55604);
 }
 button:active {
   transform: scale(0.9);
+}
+#results {
+  width: 90%;
+  height: 60px;
+  border: 2px dotted #B4B4B3;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px auto;
+  display: grid;
+  place-items: center;
+}
+@media screen and (max-width: 500px) {
+  .main-container,
+  .results {
+    width: 95%;
+  }
+  .players {
+    flex-direction: column;
+  }
 }

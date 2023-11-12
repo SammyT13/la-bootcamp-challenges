@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
-import PlayersDice from './components/PlayersDice'
+import DiceGame from './components/DiceGame'
 
 const App = () => {
-  return(
+  return (
     <>
       <h1>Dice Game</h1>
-      <PlayersDice />
+      <br />
+      <br />
+      <DiceGame />
     </>
   )
 }
