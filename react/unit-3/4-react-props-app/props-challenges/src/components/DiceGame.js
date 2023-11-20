@@ -39,10 +39,12 @@ const DiceGame = () => {
         return winner
     }
 
+    determineWinner(p1Dice, p2Dice)
+
     return (
         <>
             <div id="results">
-                {p1Dice !== 0 && p2Dice !== 0 && <h3>Winner: {determineWinner(p1Dice, p2Dice)}</h3>}
+                <h3> Press To Play </h3> {p1Dice !== 0 && p2Dice !== 0 && <h3>Winner: {determineWinner(p1Dice, p2Dice)}</h3>}
             </div>
             <div className='main-container'>
                 <div className='players'>

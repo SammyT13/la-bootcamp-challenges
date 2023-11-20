@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 import DiceGame from './components/DiceGame'
+import DiceGameWinner from './components/DiceGameWinner'
+
 
 const App = () => {
   return (
@@ -9,6 +11,7 @@ const App = () => {
       <br />
       <br />
       <DiceGame />
+      <DiceGameWinner />
     </>
   )
 }
